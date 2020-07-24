@@ -16,7 +16,7 @@ const IndexPage = () => (
       <div className={[styles.bgimage, styles.img6].join(' ')}></div>
 
       <div className={styles.bgtext}>
-      <h1>Welcome to MeghnaLand</h1>
+      <h1>Welcome to MeghnaLand!</h1>
       <h4>I blog about stuff that amuses me
         <br/>
         and I hope it amuses you too</h4>
