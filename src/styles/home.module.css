@@ -1,0 +1,51 @@
+.container {
+    height: 100%;
+    margin: 20px 20px 20px 0;
+    font-family: 'Alice', serif;
+    overflow: scroll;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.bgimage {
+    /* Full height */
+    height: 50%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+/* Images used */
+.img1 { background-image: url('../images/home/kolkata1.jpg'); }
+.img2 { background-image: url('../images/home/kolkata2.jpg'); }
+.img3 { background-image: url('../images/home/mumbai.jpg'); }
+.img4 { background-image: url('../images/home/bhubaneswar1.jpg'); }
+.img5 { background-image: url('../images/home/coochbehar.jpg'); }
+.img6 { background-image: url('../images/home/bhubaneswar3.jpg'); }
+
+/* Position text in the middle of the page/image */
+.bgtext {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    line-height: 180%;
+    border: 10px solid #f1f1f1;
+    position: fixed;
+    top: 70%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+}

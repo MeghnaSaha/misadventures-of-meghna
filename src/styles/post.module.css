@@ -1,0 +1,13 @@
+.postContainer{
+    background: cornsilk;
+    border: 2px solid white;
+    margin: 20px 20px 10px 0;
+    padding: 10px;
+    font-family: 'Alice', serif;
+}
+
+.postContent{
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 140%;
+}

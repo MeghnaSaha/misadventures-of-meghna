@@ -1,0 +1,21 @@
+.postsContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px 20px 10px 0;
+    font-family: 'Alice', serif;
+    line-height: 140%;
+}
+
+.postPreview{
+    width: 49%;
+    flex: 0 0 auto;
+    background: cornsilk;
+    border: 2px solid white;
+    border-radius: 1%;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: justify;
+    text-justify: inter-word;
+}

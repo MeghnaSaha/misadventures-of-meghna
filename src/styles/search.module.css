@@ -1,0 +1,38 @@
+.container{
+    margin: 20px 10px 10px 0;
+    font-family: 'Alice', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container form{
+    width: 80%;
+}
+
+.searchBar{
+    width: 100%;
+    height: 40px;
+    padding-left: 8px; 
+}
+
+.postsContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 5px 10px 5px 0;
+    line-height: 140%;
+}
+
+.postPreview{
+    width: 49%;
+    flex: 0 0 auto;
+    background: cornsilk;
+    border: 2px solid white;
+    border-radius: 1%;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: justify;
+    text-justify: inter-word;
+}

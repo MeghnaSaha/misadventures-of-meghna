@@ -1,21 +1,27 @@
 import React from "react"
-import { Link } from "gatsby"
+import styles from '../styles/home.module.css'
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <div className={styles.container}>
+      <div className={[styles.bgimage, styles.img1].join(' ')}></div>
+      <div className={[styles.bgimage, styles.img2].join(' ')}></div>
+      <div className={[styles.bgimage, styles.img3].join(' ')}></div>
+      <div className={[styles.bgimage, styles.img4].join(' ')}></div>
+      <div className={[styles.bgimage, styles.img5].join(' ')}></div>
+      <div className={[styles.bgimage, styles.img6].join(' ')}></div>
+
+      <div className={styles.bgtext}>
+      <h1>Welcome to MeghnaLand</h1>
+      <h4>I blog about stuff that amuses me
+        <br/>
+        and I hope it amuses you too</h4>
+      </div>
     </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
   </Layout>
 )
 
