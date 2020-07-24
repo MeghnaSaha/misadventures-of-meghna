@@ -4,6 +4,7 @@ module.exports = {
     description: `A blog that's going to make Meghna an internet superstar`,
     author: `@meghnasaha`,
   },
+  pathPrefix: `/misadventures-of-meghna`,
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-catch-links`,
