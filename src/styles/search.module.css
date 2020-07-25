@@ -1,5 +1,6 @@
 .container{
     margin: 20px 10px 10px 0;
+    padding-top: 10px;
     font-family: 'Alice', serif;
     display: flex;
     flex-direction: column;
