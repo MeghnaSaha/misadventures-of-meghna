@@ -5,9 +5,10 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-import React from "react"
+import React, { useEffect } from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+import ReactGa from 'react-ga'
 
 import Hero from "./Hero"
 import SideBar from "./SideBar"
@@ -23,6 +24,11 @@ const Layout = ({ children }) => {
       }
     }
   `)
+
+  useEffect(() => {
+    ReactGa.initialize('UA-173522347-1')
+    ReactGa.pageview(window.location.pathname + window.location.search)
+  }, [])
 
   return (
     <>
