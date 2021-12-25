@@ -5,7 +5,7 @@ date: "25 December, 2021"
 title: "Meghna & Mister"
 ---
 
-*A recount of my adventures at a datig show, that happened in NeverLand: this was my enty for the club level Tall Tales (stories that are told as if they were true but contain exaggerated or unbelievable parts) Contest at mt Toastmasters Club. It was my first ever contest & while I ended up not winning, I had a great experience participating.*
+*A recount of my adventures at a dating show, that happened in NeverLand: this was my enty for the club level Tall Tales (stories that are told as if they were true but contain exaggerated or unbelievable parts) Contest at my Toastmasters Club. It was my first ever contest & while I ended up not winning, I had a great experience participating.*
 
 
 Many years before the advent of Tinder, the way that people found their soulmates was through a good old-fashioned Swayamvar. After the sensational Rakhi ka Swayamvar that aired on Indian Television, there was another mystery show on the same concept called “Meghna & Mister” & of course, the producers just had to ask the most youthful, most ingenious, most delightful girl on the planet & after checking my calendar, I said yes to the show!
