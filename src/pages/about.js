@@ -26,7 +26,7 @@ const About = () => (
       <img src={require('../images/about/aboutpage1.jpg')} alt='happy picture' />
       <div className={styles.aboutContent}>
         <p>
-          I'm an average Indian girl in my early twenties. While I work full time as an Analyst at Goldman Sachs,
+          I'm an average Indian girl in my early twenties. While I work full time as a Software Engineer at Google,
           I blog to unwind. Well, partially to unwind, and partially because I feel it would be the greatest 
           atrocity of all time to keep from the world my tales of misadventurous adventures.
           <br/>
